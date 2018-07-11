@@ -29,7 +29,6 @@ module.exports = function override(config, env) {
     modifyVars: themeOverrides
   })(config, env);
 
-
   // override eslint config
   config = rewireEslint(config, env);
 
